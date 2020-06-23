@@ -2,4 +2,4 @@
 
 
 ## url
-https://sujin1135.github.io
+https://jungjayyoung.github.io
