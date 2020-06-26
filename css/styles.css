@@ -478,6 +478,11 @@ mark,
   height: auto;
 }
 
+.img-custom{
+  max-width: 90%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -541,6 +546,7 @@ pre code {
 
 .container {
   width: 100%;
+
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
@@ -1105,6 +1111,8 @@ pre code {
   .col-md-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
+  
+   
   }
 
   .col-md-5 {
@@ -7572,7 +7580,7 @@ button.bg-dark:focus {
 
 .mt-3,
 .my-3 {
-  margin-top: 1rem !important;
+  margin-top: 10.0rem !important;  /*고친부분*/
 }
 
 .mr-3,
@@ -10238,6 +10246,7 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
+  font-size: 2rem;  /*바꾼부분*/
   margin-bottom: 2rem;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
