@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://unpkg.com/type-hangul"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -39,9 +40,11 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">개발자를 꿈꾸는</div>
-                <div class="masthead-heading text-uppercase"><span style="background-color: rgb(0, 0, 0,0.3)">정재영 입니다.</span></div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services"><span style="color: black">Tell me more!</span></a>
+                <div class="masthead-subheading"><div id="target1">홍익대학교</div><script>TypeHangul.type('#target1',{'intervalType': 40});</script></div>
+                <!--<div class="masthead-heading text-uppercase"><span style="background-color: rgb(0, 0, 0,0.3)"><div id="target"> </div><script>TypeHangul.type('#target',{'text': "정재영"});</script>입니다.</span></div>-->
+                <div class="masthead-heading text-uppercase"><span style="background-color: rgb(0, 0, 0,0.3)"><div id="target"></div>
+                    <script>TypeHangul.type('#target',{'text': "B511185 정재영",'intervalType': 200});</script>입니다</span></div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services"><span style="color: black">김한규 교수님 소프트웨어공학 수업 과제</span></a>
             </div>
         </header>
         <!-- Services-->
@@ -557,5 +560,6 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
     </body>
 </html>
